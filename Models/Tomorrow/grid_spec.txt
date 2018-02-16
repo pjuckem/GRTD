@@ -1,0 +1,35 @@
+Source locations
+  df : Tomorrow_domain.shp
+  ws : Tomorrow
+  K_bedrock : 0.3048006096012192
+  ib_filter : 0
+  vpu : NHDPlusGL/NHDPlus04
+  rpu : ned04d
+
+Upper left corner x and y projected coordinates
+523059.26551371464 2426659.0996396784
+
+Rotation about upper left corner in radians and degrees from positive x axis
+-0.6644839124003799 -38.07212373488247
+
+Grid corner projected coordinates
+523059.27 2426659.10567608.11 2391763.33547351.09 2365902.70502802.25 2400798.46523059.27 2426659.10
+Coordinate reference system
+    proj : aea
+    lat_0 : 23
+    x_0 : 0
+    lat_1 : 29.5
+    no_defs : True
+    lat_2 : 45.5
+    wktext : True
+    y_0 : 0
+    ellps : GRS80
+    lon_0 : -96
+    units : m
+
+
+Geotransformation block
+523059.26551371464 239.94974962195494 -187.95618976143342 2426659.0996396784 -187.95618976143342 -239.94974962195494
+
+Grid block
+NROW 108 NCOL 186

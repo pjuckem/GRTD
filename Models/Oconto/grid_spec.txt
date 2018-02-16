@@ -1,0 +1,35 @@
+Source locations
+  df : Oconto_domain.shp
+  K_bedrock : 0.3048006096012192
+  vpu : NHDPlusGL/NHDPlus04
+  rpu : ned04d
+  ib_filter : 0
+  ws : Oconto
+
+Upper left corner x and y projected coordinates
+577063.2532906635 2533823.6365613053
+
+Rotation about upper left corner in radians and degrees from positive x axis
+-0.7466412402552396 -42.779391877038535
+
+Grid corner projected coordinates
+577063.25 2533823.64649785.98 2466530.23617211.67 2431327.79544488.95 2498621.20577063.25 2533823.64
+Coordinate reference system
+    lat_2 : 45.5 
+    lon_0 : -96 
+    towgs84 : 0,0,0,0,0,0,0 
+    ellps : GRS80 
+    proj : aea 
+    y_0 : 0 
+    x_0 : 0 
+    units : m 
+    lat_1 : 29.5 
+    wktext : True
+    lat_0 : 23 
+
+
+Geotransformation block
+577063.2532906635 223.71578304655762 -207.01367111652408 2533823.6365613053 -207.01367111652408 -223.71578304655762
+
+Grid block
+NROW 158 NCOL 326
