@@ -7,9 +7,11 @@ UPW           31 Oconto.upw
 RCH           19 Oconto.rch 
 DRN           21 Oconto.drn 
 OC            14 Oconto.oc 
-#DATA(BINARY)  51 Oconto.hds REPLACE  # Be sure to change these back when get data from Jeff!
+DATA(BINARY)  51 Oconto.hds REPLACE  # Be sure to change these back when get data from Jeff!
+#DATA(BINARY)  51 Oconto_OLD.hds REPLACE
+#DATA(BINARY)  51 Oconto_from_carl.hds REPLACE
 DATA(BINARY)  52 Oconto.ddn REPLACE
-DATA(BINARY)  51 Oconto_OLD.hds REPLACE
-DATA(BINARY)  53 Oconto_OLD.cbc REPLACE
-#DATA(BINARY)  53 Oconto.cbc REPLACE  # Be sure to change these back when get data from Jeff!
+DATA(BINARY)  53 Oconto.cbc REPLACE  # Be sure to change these back when get data from Jeff!
+#DATA(BINARY)  53 Oconto_OLD.cbc REPLACE
+#DATA(BINARY)  53 Oconto_from_carl.cbc REPLACE
 NWT           32 Oconto.nwt 
