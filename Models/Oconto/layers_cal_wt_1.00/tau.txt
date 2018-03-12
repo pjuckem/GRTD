@@ -1,5 +1,0 @@
-Mean exponential age in glacial is 27.146863 years
-Mean exponential age in bedrock is 334.245111 years
-Mean exponential age in total is 57.738806 years
-Inflow to bedrock is 123997 cubic meters per day
-Inflow to bedrock is 0.092 of total recharge

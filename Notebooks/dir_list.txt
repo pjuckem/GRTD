@@ -1,7 +1,9 @@
 ../Models\NY_Ramapo_02\layers_cal_wt_1.00
-../Models\Oconto\layers_cal_wt_1.00
-../Models\Oconto\norock
+../Models\Oconto_GenMod\layers_cal_wt_1.00
+../Models\Oconto_GenMod\norock
 ../Models\OH_Three_Brothers_Creek-Grand_05\layers_cal_wt_1.00
+../Models\old-Oconto\layers_cal_wt_1.00
+../Models\old-Oconto\norock
 ../Models\Racoon\layers_cal_wt_1.00
 ../Models\SD_Willow_07\layers_cal_wt_1.00
 ../Models\SugarCreek\layers_cal_wt_1.00
