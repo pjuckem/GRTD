@@ -64,3 +64,10 @@ class imeth(object):
             tmp[tseqnum, 0] = iflow
 
         return tmp
+		
+    def imeth6(self, BUFF):  # for UZF in layer 1
+    
+        tmp = np.zeros((self.nn, 7))
+        tmp[0 : self.rxc , 6] = BUFF[0].ravel()
+        
+        return tmp		
