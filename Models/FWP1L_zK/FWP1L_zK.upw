@@ -1,0 +1,11 @@
+# MODFLOW-NWT UPW Package 
+# File generated on 06/12/2015 13:18:03 by GlaKmaker.py 
+# IUPWCB HDRY NPUPW IPHDRY 
+50 -1000 0 1 
+3 
+0 
+1.0 
+1 
+0 
+OPEN/CLOSE 'L1zKswb_hk_Layer_1.ref'  1  (FREE)  -1
+CONSTANT 10

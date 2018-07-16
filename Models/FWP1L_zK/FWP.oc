@@ -1,0 +1,6 @@
+  HEAD SAVE UNIT 30
+  compact budget aux
+  PERIOD 1  STEP 1
+     SAVE HEAD
+     SAVE BUDGET
+     PRINT BUDGET

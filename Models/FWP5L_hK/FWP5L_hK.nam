@@ -1,0 +1,22 @@
+LIST 7 FWP5L_hK.lst
+BAS6 1 FWP_BR.bas
+DIS  29 FWP_BR_eqthick.dis
+UPW  11 FWP_BR.upw
+MNW2 12 FWP_BR_eqthick_ibd.mnw2
+GHB 17 FWPvertFlat.ghb
+SFR 27 FWP_icalc1_hetKFlat.sfrfix
+RCH 19 FWP_swb_Rmult.rch
+UZF 18 FWP_hetK_swb_Rmult.uzffix
+OC  22 FWP.oc
+NWT 24 nwtComplex_FLUX.nwt
+DATA(BINARY) 77 FWP_BR_eqthick.shds
+
+DATA(BINARY) 50 FWP5L_hK.cbb REPLACE
+DATA         66 FWP5L_hK_streamflow.dat
+DATA(BINARY) 30 FWP5L_hK.hds REPLACE
+
+
+MNWI 87 mnwi.txt
+DATA 86 FWP_BR_eqibd_mnwnode.out
+DATA 88 FWP_BR_eqibd_mnw.WEL
+DATA 89 FWP_BR_eqibd_mnwQsum.out

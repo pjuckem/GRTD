@@ -1,0 +1,17 @@
+LIST 7 FWP1L_zK.lst
+BAS6 1 FWP1L_NF2_zK_swb.bas
+DIS  29 FWP1L_SFR2_BR_adj.dis
+UPW 11 FWP1L_zK.upw
+MNW2 12 FWP1L.mnw2
+GHB 17 FWPvertFlat.ghb
+SFR 27 FWP1L_icalc1_zKFlat.sfrfix
+RCH 19 FWP1L_swb_Rmult.rch
+UZF 18 FWP1L_zK_swb_Rmult.uzffix
+OC  22 FWP.oc
+NWT 24 nwtComplexRich.nwt
+#DATA(BINARY) 77 FWP1L_zK_swb_basep_optimized.shds
+DATA(BINARY) 77 FWP1L_zK_swb.shds
+
+DATA(BINARY) 50 FWP1L_zK.cbb REPLACE
+DATA         66 FWP1L_zK_streamflow.dat
+DATA(BINARY) 30 FWP1L_zK.hds REPLACE

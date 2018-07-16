@@ -1,0 +1,5 @@
+# MODFLOW-NWT RCH Package
+# File generated on 06/09/2015 14:47:30
+         3        50
+         1        -1 # Stress period 1
+OPEN/CLOSE 'FWP5LzK_swb_rch_mult.dat'   1 (FREE)  -1

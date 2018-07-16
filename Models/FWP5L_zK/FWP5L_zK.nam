@@ -1,0 +1,19 @@
+LIST 7 FWP5L_zK.lst
+BAS6 1 FWP_BR.bas
+#DIS  29 FWP_BR_eqthick.dis
+DIS  29 FWP_BR_eqthick_time.dis
+UPW  11 FWP5L_zoned_BR.upw
+MNW2 12 FWP_BR_eqthick_ibd.mnw2
+GHB  17 FWPvertFlat.ghb
+SFR  27 FWP5L_icalc1_zKFlat.sfrfix
+RCH  19 FWP5LzK_swb_Rmult.rch
+UZF  18 FWP5LzK_swb_Rmult.uzffix
+OC   22 FWP.oc
+NWT  24 nwtComplex_FLUX.nwt
+#DATA(BINARY) 77 FWP5LzK_BR_eqthick.shds
+#DATA(BINARY) 77 FWP5L_zoned.shds
+DATA(BINARY) 77 FWP5L_zoned_tight.shds
+
+DATA(BINARY) 50 FWP5L_zK.cbb REPLACE
+DATA         66 FWP5L_zK_streamflow.dat
+DATA(BINARY) 30 FWP5L_zK.hds REPLACE
