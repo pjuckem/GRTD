@@ -17,8 +17,11 @@ import gen_mod_functions as gm  # from Starn's general model notebooks
 
 # Input
 # List the files in the order you want them converted into the 3D array (top of model first)
-ascii_file_list = ['../Models/FWP5L_hK/por_Layer_1_AWHb8_1.ref', '../Models/FWP5L_hK/por_Layer_2_AWHb8_1.ref',
-                   '../Models/FWP5L_hK/por_Layer_3_AWHb8_1.ref']
+#ascii_file_list = ['../Models/FWP5L_hK/por_Layer_1_AWHb8_1.ref', #'../Models/FWP5L_hK/por_Layer_2_AWHb8_1.ref',
+#                   '../Models/FWP5L_hK/por_Layer_3_AWHb8_1.ref']
+ascii_file_list = ['../Models/FWP5L_hK/por_Layer_1_SM96_v7_quad1D.ref', 
+'../Models/FWP5L_hK/por_Layer_2_SM96_v7_quad1D.ref',
+'../Models/FWP5L_hK/por_Layer_3_SM96_v7_quad1D.ref']
 zone_array_src = '../Models/FWP5L_hK/calibration_area_noBR.npz'  # optional. If omitted, stats run for entire model; if included should be 0 & 1s as per Ibound
 
 ref_raster = 'D:/PFJDATA/Projects/NAWQA/Modeling/general-models/FWP_ref_raster.tif'  # New raster produced with proper GT parameters!
@@ -30,11 +33,16 @@ total_layers = 5
 value4added_layers = 0.2
 
 # Output
-npz_file = '../Models/FWP5L_hK/por_5LhK_AWHb8_1'
-stats_file = '../Models/FWP5L_hK/por_5LhK_AWHb8_1_stats.dat'
-rasterfiles = ['../Models/FWP5L_hK/por_5LhK_layer1_AWHb8_1.tiff',
-               '../Models/FWP5L_hK/por_5LhK_layer2_AWHb8_1.tiff',
-               '../Models/FWP5L_hK/por_5LhK_layer3_AWHb8_1.tiff']
+#npz_file = '../Models/FWP5L_hK/por_5LhK_AWHb8_1'
+npz_file = '../Models/FWP5L_hK/por_5LhK_SM96_v7_quad1D'
+#stats_file = '../Models/FWP5L_hK/por_5LhK_AWHb8_1_stats.dat'
+stats_file = '../Models/FWP5L_hK/por_5LhK_SM96_v7_quad1D_stats.dat'
+#rasterfiles = ['../Models/FWP5L_hK/por_5LhK_layer1_AWHb8_1.tiff',
+#               '../Models/FWP5L_hK/por_5LhK_layer2_AWHb8_1.tiff',
+#               '../Models/FWP5L_hK/por_5LhK_layer3_AWHb8_1.tiff']
+rasterfiles = ['../Models/FWP5L_hK/por_5LhK_layer1_SM96_v7_quad1D.tiff',
+               '../Models/FWP5L_hK/por_5LhK_layer2_SM96_v7_quad1D.tiff',
+               '../Models/FWP5L_hK/por_5LhK_layer3_SM96_v7_quad1D.tiff']
 
 
 # Main
